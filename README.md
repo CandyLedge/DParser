@@ -25,11 +25,11 @@
 ## 使用
 
 1. 在rules目录下添加协议规则JSON文件
-2. 导入并使用DParser类:
+2. 导入并使用ProtocolParser类:
    ```python
-   from parser import DParser
+   from parser import ProtocolParser
    
-   parser = DParser()
+   parser = ProtocolParser()
    result = parser.parse("protocol_name",binary_data)
    ```
 
