@@ -30,7 +30,7 @@
    from parser import DParser
    
    parser = DParser()
-   result = parser.parse(binary_data, "protocol_name")
+   result = parser.parse("protocol_name",binary_data)
    ```
 
 ## 协议规则格式
