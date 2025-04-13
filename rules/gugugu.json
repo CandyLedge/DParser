@@ -1,0 +1,12 @@
+{
+    "protocol_name": "gugugu",
+    "total_bytes": 1,
+    "data_segments": [
+        {
+            "name": "温度",
+            "start_bit": 0,
+            "end_bit": 7,
+            "data_type": "sint"
+        }
+    ]
+}

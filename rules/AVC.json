@@ -1,0 +1,19 @@
+{
+    "protocol_name": "AVC",
+    "total_bytes": 4,
+    "data_segments": [
+      {
+        "name": "温度",
+        "start_bit": 0,
+        "end_bit": 15,
+        "data_type": "SINT"
+      },
+      {
+        "name": "湿度",
+        "start_bit": 16,
+        "end_bit": 31,
+        "data_type": "UINT"
+      }
+    ]
+  }
+  
